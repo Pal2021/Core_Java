@@ -12,5 +12,6 @@ public class DoubleLockingDBConnection {
         if(conObject==null){
             conObject=new DoubleLockingDBConnection();
         }
+        return  conObject;
     }
 }
